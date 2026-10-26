@@ -1,0 +1,30 @@
+# Python bytecode and test/tool caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+dsenv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large local datasets
+dataset/*.h5
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.exe
+
+# Local editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
